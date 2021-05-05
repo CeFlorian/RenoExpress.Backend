@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "9109a48e-7dc4-4d61-9e38-fc872746ba8c",
+		"name": "API RenoExpress",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Local",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usuario",
+									"value": "user@correo.com",
+									"type": "text"
+								},
+								{
+									"key": "Contrasenia",
+									"value": "Ab12345678*",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:44332/api/Login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44332",
+							"path": [
+								"api",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutProducto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJAY29ycmVvLmNvbSIsInJvbGUiOiJyb2wiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zeXN0ZW0iOiI6OjEiLCJuYmYiOjE2MjAyMzE5NDUsImV4cCI6MTYyMDIzMjU0NSwiaWF0IjoxNjIwMjMxOTQ1LCJpc3MiOiJhZTk1ZDQ0YTEyNDBlMGI4ZDZhYTM5NThmOGRiYmYyNjI3YTVlZGM4OGJkZGVkNTc2MjNkZWJkYTkxY2Y4ODI1IiwiYXVkIjoiMWU0MGZlZWRiNmQ4ZTE3NGQ0NzNhMzY5YjNkYTIzZmRiYTQ3OTNiNzk0OTk1MTA5NTA1OThiZjkxYWI2ODExZSJ9.RPeRVQXVHcZJ1Ddyqb13Wz5vUT9g_fSSUbIt5snHC2c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44332/api/Producto?codigo=1&cantidad=25&opcion=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44332",
+							"path": [
+								"api",
+								"Producto"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "1"
+								},
+								{
+									"key": "cantidad",
+									"value": "25"
+								},
+								{
+									"key": "opcion",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProducto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJAY29ycmVvLmNvbSIsInJvbGUiOiJyb2wiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zeXN0ZW0iOiI6OjEiLCJuYmYiOjE2MjAyMzExNDMsImV4cCI6MTYyMDIzMTc0MywiaWF0IjoxNjIwMjMxMTQzLCJpc3MiOiJhZTk1ZDQ0YTEyNDBlMGI4ZDZhYTM5NThmOGRiYmYyNjI3YTVlZGM4OGJkZGVkNTc2MjNkZWJkYTkxY2Y4ODI1IiwiYXVkIjoiMWU0MGZlZWRiNmQ4ZTE3NGQ0NzNhMzY5YjNkYTIzZmRiYTQ3OTNiNzk0OTk1MTA5NTA1OThiZjkxYWI2ODExZSJ9.hAFaitnPUuQvevXuREsPmcSUiAQVSYGlhP39_4pFvJw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44332/api/Producto",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44332",
+							"path": [
+								"api",
+								"Producto"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Azure",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usuario",
+									"value": "user@correo.com",
+									"type": "text"
+								},
+								{
+									"key": "Contrasenia",
+									"value": "Ab12345678*",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://renoexpress.azurewebsites.net/api/Login",
+							"protocol": "https",
+							"host": [
+								"renoexpress",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutProducto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJAY29ycmVvLmNvbSIsInJvbGUiOiJyb2wiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zeXN0ZW0iOiIxOTAuMTA0LjExNC4xOTEiLCJuYmYiOjE2MjAyMzY5NzYsImV4cCI6MTYyMDIzNzU3NiwiaWF0IjoxNjIwMjM2OTc2LCJpc3MiOiJhZTk1ZDQ0YTEyNDBlMGI4ZDZhYTM5NThmOGRiYmYyNjI3YTVlZGM4OGJkZGVkNTc2MjNkZWJkYTkxY2Y4ODI1IiwiYXVkIjoiMWU0MGZlZWRiNmQ4ZTE3NGQ0NzNhMzY5YjNkYTIzZmRiYTQ3OTNiNzk0OTk1MTA5NTA1OThiZjkxYWI2ODExZSJ9.SWwzZFxt71U-d5nwPc94P4D05OcCYiF6V6PY7yT3OZ8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://renoexpress.azurewebsites.net/api/Producto?codigo=1&cantidad=25&opcion=1",
+							"protocol": "https",
+							"host": [
+								"renoexpress",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Producto"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "1"
+								},
+								{
+									"key": "cantidad",
+									"value": "25"
+								},
+								{
+									"key": "opcion",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProducto",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InVzZXJAY29ycmVvLmNvbSIsInJvbGUiOiJyb2wiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zeXN0ZW0iOiIxOTAuMTA0LjExNC4xOTEiLCJuYmYiOjE2MjAyMzY5NzYsImV4cCI6MTYyMDIzNzU3NiwiaWF0IjoxNjIwMjM2OTc2LCJpc3MiOiJhZTk1ZDQ0YTEyNDBlMGI4ZDZhYTM5NThmOGRiYmYyNjI3YTVlZGM4OGJkZGVkNTc2MjNkZWJkYTkxY2Y4ODI1IiwiYXVkIjoiMWU0MGZlZWRiNmQ4ZTE3NGQ0NzNhMzY5YjNkYTIzZmRiYTQ3OTNiNzk0OTk1MTA5NTA1OThiZjkxYWI2ODExZSJ9.SWwzZFxt71U-d5nwPc94P4D05OcCYiF6V6PY7yT3OZ8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://renoexpress.azurewebsites.net/api/Producto",
+							"protocol": "https",
+							"host": [
+								"renoexpress",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Producto"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

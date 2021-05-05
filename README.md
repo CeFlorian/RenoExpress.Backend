@@ -15,4 +15,4 @@ Asociar compras a alguna entidad proveedor.
 
 Asociar ventas a alguna entidad cliente.
 
-Motivo: por problemas de energía eléctrica en el sector donde vivo, mi tiempo para resolver la el problema se acortó.
+Motivo: por problemas de energía eléctrica en el sector donde vivo, mi tiempo para resolver el problema se acortó.

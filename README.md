@@ -8,7 +8,7 @@ Credenciales de prueba:
 usuario: user@correo.com 
 
 contraseña: Ab12345678.
-
+#
 Puntos no terminados:
 
 Asociar compras a alguna entidad proveedor.

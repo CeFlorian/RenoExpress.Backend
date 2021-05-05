@@ -27,7 +27,7 @@ namespace RenoExpress.Backend.BLL.BLL
                 if (userData == null)
                 {
                     response.Response = false;
-                    response.Message = "Usuario no encontrado";
+                    response.Message = "Usuario o contraseña no coinciden.";
                     return response;
                 }
 
@@ -41,13 +41,13 @@ namespace RenoExpress.Backend.BLL.BLL
                     else
                     {
                         response.Response = false;
-                        response.Message = "Contraseña no coincide";
+                        response.Message = "Usuario o contraseña no coinciden.";
                     }
                 }
                 else
                 {
                     response.Response = false;
-                    response.Message = "Contraseña no coincide";
+                    response.Message = "Usuario o contraseña no coinciden.";
                 }
 
             }

@@ -3,4 +3,3 @@ C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.MOD\bin\Debu
 C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.MOD\bin\Debug\RenoExpress.Backend.MOD.pdb
 C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.MOD\obj\Debug\RenoExpress.Backend.MOD.dll
 C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.MOD\obj\Debug\RenoExpress.Backend.MOD.pdb
-C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.MOD\obj\Debug\RenoExpress.Backend.MOD.csprojAssemblyReference.cache

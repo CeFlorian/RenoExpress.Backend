@@ -39,7 +39,7 @@ namespace RenoExpress.Backend.API.Controllers
 
             if (error != null)
             {
-                return BadRequest(error.Descripcion);
+                return Content(HttpStatusCode.InternalServerError, error);
             }
 
             return Ok(result);
@@ -77,7 +77,7 @@ namespace RenoExpress.Backend.API.Controllers
 
             if (error != null)
             {
-                return BadRequest(error.Descripcion);
+                return Content(HttpStatusCode.InternalServerError, error);
             }
 
             return Ok(result);
@@ -114,7 +114,7 @@ namespace RenoExpress.Backend.API.Controllers
 
             if (error != null)
             {
-                return BadRequest(error.Descripcion);
+                return Content(HttpStatusCode.InternalServerError, error);
             }
 
             return Ok(result);

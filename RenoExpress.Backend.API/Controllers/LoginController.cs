@@ -37,7 +37,7 @@ namespace RenoExpress.Backend.API.Controllers
 
             if (error != null)
             {
-                return BadRequest(error.Descripcion);
+                return Content(HttpStatusCode.InternalServerError, error);
             }
 
             if (result.Response)
@@ -46,7 +46,7 @@ namespace RenoExpress.Backend.API.Controllers
             }
             else
             {
-                return Unauthorized();
+                return Content(HttpStatusCode.Unauthorized, result);
             }
 
         }

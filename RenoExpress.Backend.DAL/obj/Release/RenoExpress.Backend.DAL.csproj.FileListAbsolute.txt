@@ -1,0 +1,9 @@
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\bin\Release\RenoExpress.Backend.DAL.dll
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\bin\Release\RenoExpress.Backend.DAL.pdb
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\bin\Release\RenoExpress.Backend.MOD.dll
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\bin\Release\RenoExpress.Backend.MOD.pdb
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\obj\Release\RenoExpress.Backend.DAL.csprojAssemblyReference.cache
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\obj\Release\RenoExpress.Backend.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\obj\Release\RenoExpress.Backend.DAL.csproj.CopyComplete
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\obj\Release\RenoExpress.Backend.DAL.dll
+C:\Users\Cesar\source\repos\RenoExpress.Backend\RenoExpress.Backend.DAL\obj\Release\RenoExpress.Backend.DAL.pdb
